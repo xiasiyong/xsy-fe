@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@xsy-fe/react": "1.0.0",
+    "@xsy-fe/tools": "1.0.0"
+  },
+  "changesets": [
+    "three-cameras-report"
+  ]
+}
