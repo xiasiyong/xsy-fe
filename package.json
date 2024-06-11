@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
     "changeset": "changeset",
-    "prerelease": "changeset pre enter beta; changeset version; git add .; git commit -m 'Enter prerelease mode and Version Packages' --no-verify; changeset publish; "
+    "prerelease": "changeset pre enter beta; changeset version; git add .; git commit -m 'Enter prerelease mode and Version Packages' --no-verify; changeset publish; git push --follow-tags"
   },
   "author": "",
   "license": "ISC",
